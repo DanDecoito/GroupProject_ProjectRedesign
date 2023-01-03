@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(0, 20, 39);
+}
+p {
+    color: white;
+    font-style: inter;
+    font-size: 20px;
+}
+.gHText {
+    color: rgb(244, 213, 141);
+}
+darkHText {
+    color: rgb(0, 20, 39);
+}
+redHText {
+    color: rgb(191, 6, 3);
+}
+.pageName {
+    font-family: 'Baskervville', serif;
+    font-size: 60px;
+    color: rgb(244, 213, 141);
+}
+.titleText {
+    font-family: 'Alike', serif;
+    font-size: 50px;
+    color: rgb(244, 213, 141);
+}
