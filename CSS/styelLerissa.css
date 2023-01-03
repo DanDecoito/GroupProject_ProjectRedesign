@@ -6,6 +6,7 @@ body {
 
 .navbar {
     background-color: #8D0801;
+    height: 9rem;
 }
 
 .title {
@@ -17,5 +18,8 @@ body {
 }
 
 .ellipseImg {
-    margin-top: 10rem;
+    position: relative;
+    top: 4.5rem;
+    max-height: 17rem;
+    max-width: 19rem;
 }
