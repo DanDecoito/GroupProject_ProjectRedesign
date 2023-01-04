@@ -37,15 +37,74 @@ redHText {
     /* align-items: center; */
     margin-top: 90px;
 }
+.lineSpaceing {
+    line-height: 28.6px;
+}
 .pageNameMargin {
     margin-top: 20px;
     margin-bottom: 60px;
 }
 .imgSize {
-    width: 452px;
-    height: 437px;
+    width: 502px;
+    height: 487px;
+}
+.rightImg {
+    padding-right: 50px;
 }
 .imgSize2 {
     width: 259px;
     margin-top: 40px;
+}
+.danOverRight {
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 149px;
+    left: 0px;
+    top: 1134px;
+    background: #8D0801;
+}
+
+.coin {
+    background-image: url(../images/Screenshot_1-removebg-preview.png);
+    height: 95px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.footerContentText {
+    position: absolute;
+    width: 351px;
+    height: 72px;
+    left: 45px;
+    top: 40px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 3px;
+}
+
+.footerContentOtherText {
+    top: 40px;
+    left: 1160px;
+    position: absolute;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 3px;
+    text-align: end;
+}
+.leftIMg {
+    position: absolute;
+    top: 500px;
+    left: 15px;
+}
+.rightIMg {
+    position: absolute;
+    top: 500px;
+    right: 15px;
 }
