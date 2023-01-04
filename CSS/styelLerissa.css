@@ -28,9 +28,19 @@ body {
     max-height: 28rem;
 }
 
+/* check list */
+
+.check {
+    font-weight: bolder;
+}
+
 .checkList {
     text-align: center;
     color: #F4D58D;
     margin-top: 8rem;
+}
+
+.checkListInfo {
+    color: white;
 }
    
