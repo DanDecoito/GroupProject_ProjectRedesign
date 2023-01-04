@@ -1,31 +1,32 @@
-.topHeader {
-    background-color:#8D0801;
-    padding-top: 40px;
 
-  
-  
-    
+
+.homeBody {
+    background-color: #001427;
+}
+
+
+/*----------------------------------------------------------------
+------ HEADER START ---------------------------------------------- 
+----------------------------------------------------------------*/
+.topHeader {
+    background-color: #8D0801;
+    padding-top: 40px;
 }
 .bottomHeader {
     position: absolute;
     top: 105px;
-    background-color:#8D0801;
+    background-color: #8D0801;
     color: white;
-    border: 2px;
+    margin-bottom: 10px;
     width: 100%;
 }
-
-
 .HeaderLinks {
     color: white;
     font-size: 20px;
 }
-
-.headerMargins{
+.headerMargins {
     margin-left: 630px;
-    
 }
-
 .headerImage {
     box-sizing: border-box;
     z-index: 1;
@@ -36,36 +37,147 @@
     top: 50px;
     scale: 1.4;
 }
+.headerTitle {
+    width: 776px;
+    height: 72px;
+    left: 561px;
+    top: 32px;
+    margin-left: 390px;
+    font-family: 'Alike';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 63px;
+    display: flex;
+    
+    color: #F4D58D;
+}
+.headerChineseText {
+    width: 200px;
+    height: 71px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 77px;
+    margin-left: 20px;
+    
+    color: #F4D58D;
+}
+/*------ MEDIUM --------------------------------------------------*/
 
-
-
-.headerTitle{
-width: 776px;
-height: 72px;
-left: 361px;
-top: 32px;
-margin-left: 390px;
-font-family: 'Alike';
-font-style: normal;
-font-weight: 400;
-font-size: 54px;
-line-height: 63px;
-display: flex;
-justify-content: end;
-color: #F4D58D;
-   
+.headerImageMedium {
+    box-sizing: border-box;
+    z-index: 1;
+    position: absolute;
+    width: 306px;
+    height: 272px;
+    left: 25px;
+    top: 10px;
+    scale: 1;
+}
+.topHeaderMedium {
+    background-color: #8D0801;
+}
+.headerTitleMedium {
+    height: 72px;
+    top: 32px;
+    left: 200px;
+    font-family: 'Alike';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 63px;
+    display: flex;
+    justify-content: end;
+    color: #F4D58D;
+}
+.headerChineseTextMedium {
+    width: 200px;
+    height: 71px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 77px;
+    margin-left: 20px;
+    color: #F4D58D;
 }
 
-.headerChineseText{
 
-width: 200px;
-height: 71px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 58px;
-line-height: 77px;
 
-margin-left: 20px;
-color: #F4D58D;
+
+
+
+
+
+
+
+
+
+.homeHeroImage {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    left: 0px;
+    top: 165px;
 }
+/*----------------------------------------------------------------
+------ HEADER END ------------------------------------------------ 
+----------------------------------------------------------------*/
+
+
+
+
+
+
+
+/*----------------------------------------------------------------
+------ FOOTER START ---------------------------------------------- 
+----------------------------------------------------------------*/
+.danFooter {
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 149px;
+    left: 0px;
+    top: 1558px;
+    background: #8D0801;
+}
+
+.coin {
+    background-image: url(../images/Screenshot_1-removebg-preview.png);
+    height: 95px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.footerContentText {
+    position: absolute;
+    width: 351px;
+    height: 72px;
+    left: 45px;
+    top: 40px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 3px;
+}
+
+.footerContentOtherText {
+    top: 40px;
+    left: 1160px;
+    position: absolute;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 3px;
+    text-align: end;
+}
+/*----------------------------------------------------------------
+------ FOOTER START ---------------------------------------------- 
+----------------------------------------------------------------*/
