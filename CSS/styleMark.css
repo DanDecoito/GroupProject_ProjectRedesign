@@ -3,8 +3,8 @@ body {
 }
 p {
     color: white;
-    font-style: inter;
-    font-size: 20px;
+    font-family: 'Inter';
+    font-style: normal;
 }
 .gHText {
     color: rgb(244, 213, 141);
@@ -16,12 +16,23 @@ redHText {
     color: rgb(191, 6, 3);
 }
 .pageName {
-    font-family: 'Baskervville', serif;
+    font-family: 'Baskervville';
+    font-style: italic;
     font-size: 60px;
     color: rgb(244, 213, 141);
+}
+.pageSubText {
+    font-size: 30px;
 }
 .titleText {
     font-family: 'Alike', serif;
     font-size: 50px;
     color: rgb(244, 213, 141);
+}
+.pageTextAlign{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
 }
