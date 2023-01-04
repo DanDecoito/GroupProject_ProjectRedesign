@@ -3,6 +3,10 @@ body {
 }
 
 /* navbar */
+.fullContainer {
+    --bs-gutter-x: 0;
+    text-align: center;
+}
 
 .navbar {
     background-color: #8D0801;
@@ -42,5 +46,30 @@ body {
 
 .checkListInfo {
     color: white;
+    text-align: left;
 }
    
+.logoImg {
+    max-width: 12rem;
+    max-height: 12rem;
+}
+
+.byoRow {
+    display: flex;
+    justify-content: center;
+}
+
+/* menu */
+
+.menuImg {
+    max-width: 68rem;
+    max-height: 52rem;
+    padding-top: 4rem;
+}
+
+/* disclaimer */
+
+.disclaimerText {
+    color: white;
+    padding-top: 5rem;
+}
