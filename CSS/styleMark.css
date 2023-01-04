@@ -5,6 +5,7 @@ p {
     color: white;
     font-family: 'Inter';
     font-style: normal;
+    font-size: 20px;
 }
 .gHText {
     color: rgb(244, 213, 141);
@@ -18,11 +19,11 @@ redHText {
 .pageName {
     font-family: 'Baskervville';
     font-style: italic;
-    font-size: 60px;
+    font-size: 70px;
     color: rgb(244, 213, 141);
 }
 .pageSubText {
-    font-size: 30px;
+    font-size: 40px;
 }
 .titleText {
     font-family: 'Alike', serif;
@@ -33,12 +34,18 @@ redHText {
     text-align: center;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+    margin-top: 90px;
 }
 .pageNameMargin {
     margin-top: 20px;
+    margin-bottom: 60px;
 }
 .imgSize {
-    width: 472px;
-    height: 457px;
+    width: 452px;
+    height: 437px;
+}
+.imgSize2 {
+    width: 259px;
+    margin-top: 40px;
 }
