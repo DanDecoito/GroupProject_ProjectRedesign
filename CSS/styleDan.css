@@ -70,46 +70,38 @@
 /*------ MEDIUM --------------------------------------------------*/
 
 .headerImageMedium {
-    box-sizing: border-box;
+    
     z-index: 1;
     position: absolute;
-    width: 306px;
+    width: 272px;
     height: 272px;
-    left: 25px;
-    top: 10px;
-    scale: 1;
+    
+    
+    
 }
 .topHeaderMedium {
     background-color: #8D0801;
 }
 .headerTitleMedium {
-    height: 72px;
-    top: 32px;
-    left: 200px;
+  
     font-family: 'Alike';
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
-    line-height: 63px;
+ 
     display: flex;
     justify-content: end;
     color: #F4D58D;
-}
-.headerChineseTextMedium {
-    width: 200px;
-    height: 71px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 77px;
-    margin-left: 20px;
-    color: #F4D58D;
+    margin-right: 20px;
 }
 
 
-
-
+.HeaderLinksMedium {
+    color: white;
+    font-size: 20px;
+    margin: 7px;
+    
+}
 
 
 
