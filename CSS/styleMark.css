@@ -49,11 +49,11 @@ redHText {
     height: 487px;
 }
 .rightImg {
-    padding-right: 50px;
+    /* padding-right: 50px; */
 
 }
 .imgSize2 {
-    width: 259px;
+    width: 240px;
 }
 .leftIMg {
     position: absolute;
