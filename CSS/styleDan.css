@@ -1,10 +1,6 @@
-
-
 .homeBody {
     background-color: #001427;
 }
-
-
 /*----------------------------------------------------------------
 ------ HEADER START ---------------------------------------------- 
 ----------------------------------------------------------------*/
@@ -13,15 +9,9 @@
     padding-top: 40px;
 }
 .bottomHeader {
-    /* position: absolute; */
-   
     background-color: #8D0801;
     color: white;
-    
     width: 100%;
-    
-;
-    
 }
 .HeaderLinks {
     color: white;
@@ -49,18 +39,13 @@
     width: 400px;
 }
 .headerTitle {
-    /* width: 776px; */
-    
     position: absolute;
- 
     left: 400px;
     font-family: 'Alike';
     font-style: normal;
     font-weight: 400;
     font-size: 54px;
     line-height: 63px;
-    
-    
     color: #F4D58D;
 }
 .headerChineseText {
@@ -72,31 +57,14 @@
     font-weight: 400;
     font-size: 58px;
     line-height: 70px;
-    
-    
     color: #F4D58D;
 }
 .spacer {
     margin-top: 50px;
 }
-.headerTitleMark {
-    /* width: 776px; */
-    
-    position: absolute;
- 
-    left: 400px;
-    font-family: 'Alike';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 54px;
-    line-height: 63px;
-    
-    
-    color: #F4D58D;
-}
+
 
 /*------ MEDIUM --------------------------------------------------*/
-
 .headerImageMedium {
     z-index: 1;
     position: absolute;
@@ -107,32 +75,27 @@
     background-color: #8D0801;
 }
 .headerTitleMedium {
-  
     font-family: 'Alike';
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
- 
     display: flex;
     justify-content: end;
     color: #F4D58D;
     margin-right: 20px;
 }
-
-
 .HeaderLinksMedium {
     color: white;
     font-size: 20px;
     margin: 7px;
-    
 }
+
 /*------ SMALL --------------------------------------------------*/
 
 .topHeaderSmall {
     background-color: #8D0801;
-   
-  
 }
+
 .headerTitleSmall {
     text-align: center;
     font-family: 'Alike';
@@ -142,50 +105,36 @@
     color: #F4D58D;
     line-height: 0px;
     padding-top: 20px;
-   
 }
 
 .headerChineseTextSmall {
-      position: absolute;
-      left: 157px;
-      text-align: end;
-      font-family: 'Alike';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 48px;
-      color: #F4D58D;
-      line-height: 50px;
-    
-  }
+    position: absolute;
+    left: 157px;
+    text-align: end;
+    font-family: 'Alike';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    color: #F4D58D;
+    line-height: 50px;
+}
 
 .yellow {
     color: #F4D58D;
 }
+
 .headerImageSmall {
     z-index: 1;
     position: absolute;
-    top:25px;
+    top: 25px;
     width: 272px;
     height: 272px;
     height: 160px;
     width: 160px;
 }
-
-
-
-
-
-
 /*----------------------------------------------------------------
 ------ HEADER END ------------------------------------------------ 
 ----------------------------------------------------------------*/
-.homeHeroImage {
-    position: relative;
-    width: 100%;
-    height: 500px;
-    left: 0px;
-    top: 6+0px;
-}
 
 
 
@@ -197,26 +146,20 @@
 ----------------------------------------------------------------*/
 .danFooter {
     color: white;
-    /* position: relative; */
     width: 100%;
     height: 149px;
-
-    
     background: #8D0801;
 }
-
 .coin {
-  
     height: 100px;
     margin-top: 20px;
 }
-
 .footerContentText {
     font-family: sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 3px;
-    margin-top: 30px; 
+    margin-top: 30px;
 }
 .footerContentOtherText {
     margin-top: 30px;
@@ -225,13 +168,12 @@
     font-weight: 400;
     font-size: 16px;
 }
-
 .footerContentTextSmall {
     font-family: sans-serif;
     font-weight: 400;
     font-size: 12px;
     line-height: 3px;
-    margin-top: 30px; 
+    margin-top: 30px;
 }
 .footerContentOtherTextSmall {
     text-align: end;
@@ -250,11 +192,515 @@
     font-size: 12px;
 }
 .coinSmall {
-  
     height: 70px;
     margin-top: 10px;
 }
-
 /*----------------------------------------------------------------
 ------ FOOTER END ------------------------------------------------ 
 ----------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------------
+------ Home Content START ---------------------------------------- 
+----------------------------------------------------------------*/
+
+/* ---- LARGE ------------------------------------------------- */
+.homeLargeContent {
+    height: 1000px;
+    padding-bottom: 1400px;
+}
+.homeHeroImage {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+.HomeMainImage {
+    height: 700px;
+
+}
+.HomeContentText {
+    color: white;
+    width: 500px;
+    font-size: 24px;
+}
+.hoursText {
+    margin-top: 10px;
+    line-height: 11px;
+}
+.noticeText {
+    line-height: 24px;
+    margin-top: 25px;
+}
+.location {
+    line-height: 11px;
+}
+.paymentText {
+    line-height: 11px;
+}
+.homeHeader {
+    color: #F4D58D;
+    margin-top: 30px;
+}
+.noticeHeader {
+    color: #8D0801;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 20px;
+}
+.welcomeText {
+    color: white;
+    text-align: center;
+    font-size: 64px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.riceBowlHome {
+    position: absolute;
+    left: 1125px;
+}
+.buddahImage {
+    position: absolute;
+    left: 830px;
+    height: 400px;
+}
+/* ---- MEDIUM ------------------------------------------------- */
+.homeHeroImageMedium {
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+.HomeMainImageMedium {
+    height: 400px;
+}
+.welcomeTextMedium {
+    color: white;
+    text-align: center;
+    font-size: 52px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.HomeContentTextMedium {
+    color: white;
+    width: 250px;
+    font-size: 12px;
+}
+
+.noticeHeaderMedium {
+    color: #8D0801;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 10px;
+}
+
+.hoursTextMedium {
+    margin-top: 11px;
+    line-height: 1px;
+}
+
+.noticeTextMedium {
+    line-height: 15px;
+    margin-top: 20px;
+}
+
+.locationMedium {
+    margin-top: 11px;
+    line-height: 1px;
+}
+
+.paymentTextMedium {
+    margin-top: 11px;
+    line-height: 1px;
+}
+
+.homeHeaderMedium {
+    color: #F4D58D;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.riceBowlHomeMedium {
+    position: absolute;
+    left: 580px;
+    height: 150px;
+}
+
+.buddahImageMedium {
+    position: absolute;
+    left: 500px;
+    height: 150px;
+}
+
+.homeMediumContent {
+    padding-bottom: 180px;
+}
+/* ---- MEDIUM ------------------------------------------------- */
+.homeHeroImageSmall {
+    width: 100%;
+    height: 220px;
+}
+.homeSmallContent {
+    padding-bottom: 220px;
+}
+.riceBowlHomeSmall {
+    position: absolute;
+    left: 280px;
+    height: 100px;
+    top: 330px;
+}
+.HomeContentTextSmall {
+    margin-left: 60px;
+    color: white;
+    width: 260px;
+    font-size: 12px;
+}
+.buddahImageSmall {
+    position: absolute;
+    left: 85px;
+    height: 200px;
+}
+.welcomeTextSmall {
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+/*----------------------------------------------------------------
+------ Home Content End ------------------------------------------ 
+----------------------------------------------------------------*/
+
+
+
+
+
+/*----------------------------------------------------------------
+------ Contact Content Start ------------------------------------- 
+----------------------------------------------------------------*/
+
+/* ---- LARGE ------------------------------------------------- */
+.riceBowlContact {
+    position: absolute;
+    left: 1060px;
+    margin-top: 30px;
+}
+.mapImage {
+    height: 650px;
+}
+.contactText {
+    color: white;
+    font-size: 22px;
+    margin-top: 160px;
+    margin-bottom: 165px;
+}
+.hoursTextContact {
+    line-height: 10px;
+}
+.contactHeader{
+    color: #F4D58D;
+}
+/* ---- Medium ------------------------------------------------- */
+.mapImageMedium {
+    height: 400px;
+}
+.riceBowlContactMedium {
+    position: absolute;
+    left: 560px;
+    height: 150px;
+    margin: 20px;
+}
+.contactBannerTextMedium {
+    font-size: 44px;
+    text-align: center;
+    color:#F4D58D;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+.ContactHeaderMedium {
+    color: #F4D58D;
+    font-size: 22px;
+}
+.right {
+    position: relative;
+    left: 55px;
+}
+.ContactHeaderMediumAdress {
+    color: #F4D58D;
+    text-align: center;
+    font-size: 22px;
+}
+.ContactMediumText {
+    color: white;
+    
+    line-height: 1px;
+}
+.hoursTextContactMedium {
+    color: white;
+    line-height: 3px;
+}
+.rightAdress {
+    position: relative;
+    left: 25px;
+}
+.contactMedium {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+/* ---- Small ------------------------------------------------- */
+.contactBannerTextSmall {
+    font-size: 38px;
+    text-align: center;
+    color:#F4D58D;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.mapImageSmall {
+    height: 300px;
+    padding: 20px;
+}
+.ContactHeaderSmall {
+    color: #F4D58D;
+    font-size: 16px;
+}
+.contactSmall {
+   position: relative;
+    margin-top: 20px;
+    margin-bottom: 40px;    
+}
+.smallSpace {
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+/*----------------------------------------------------------------
+------ Contact Content End --------------------------------------- 
+----------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------------
+------ Menu Page Content Start ----------------------------------- 
+----------------------------------------------------------------*/
+
+/* ---- Large ------------------------------------------------- */
+.menuHero {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 100px;
+}
+.ordChkLst {
+    color: #F4D58D;
+    text-align: center;
+    font-size: 50px;
+    line-height: 40px; 
+}
+.riceBowlMenu {
+    position: absolute;
+    left: 1130px;
+    top: 655px;
+}
+.ChkLstContent {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.ChkLstTxt {
+    font-size: 28px;
+    width: 900px;
+}
+.menuImages {
+    margin-top: 100px;
+    height: 900px;
+    filter: brightness(.8);
+}
+.dsclmrText {
+    color: #F4D58D;
+    
+    font-size: 20px;
+    line-height: 20px;
+    width: 1250px;
+    text-align:center;
+}
+.dsclmrDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+/* ---- Medium ------------------------------------------------- */
+.menuHeroMedium {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 100px;
+}
+.riceBowlMenuMedium {
+    position: absolute;
+    left: 590px;
+    height: 150px;
+    top: 500px;
+}
+.ChkLstContentMedium {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.ChkLstTxtMedium {
+    font-size: 22px;
+    width: 700px;
+}
+.menuImagesMedium {
+    margin-top: 100px;
+    height: 470px;
+    filter: brightness(.8);
+}
+.ordChkLstMedium {
+    color: #F4D58D;
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px; 
+}
+.dsclmrTextMedium {
+    color: #F4D58D;
+    
+    font-size: 16px;
+    line-height: 20px;
+    width: 700px;
+    text-align:center;
+}
+.dsclmrDivMedium {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+/* ---- Small ------------------------------------------------- */
+.menuHeroSmall {
+    width: 100%;
+    height: 175px;
+    margin-bottom: 60px;
+}
+.ChkLstContentSmall {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.ChkLstTxtSmall {
+    font-size: 16px;
+    width: 300px;
+}
+.menuImagesSmall {
+    margin-top: 40px;
+    height: 420px;
+    filter: brightness(.8);
+}
+.ordChkLstSmall {
+    color: #F4D58D;
+    text-align: center;
+    font-size: 24px;
+    line-height: 15px; 
+}
+.dsclmrTextSmall {
+    color: #F4D58D;
+    
+    font-size: 10px;
+    line-height: 16px;
+    width: 320px;
+    text-align:center;
+}
+.dsclmrDivSmall {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+/*----------------------------------------------------------------
+------ Menu Page Content End ------------------------------------- 
+----------------------------------------------------------------*/
+
+
+
+/*----------------------------------------------------------------
+------ About us Start -------------------------------------------- 
+----------------------------------------------------------------*/
+
+/* ---- Large ------------------------------------------------- */
+.riceBowlAbout {
+    position: absolute;
+    left: 1100px;
+  
+    top: 200px;
+}
+.AboutUsText {
+    
+    color: #F4D58D;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 180px;
+   
+}
+.aboutUsContent {
+    margin-top: 220px;
+    height: 800px;
+}
+.aboutUsText {
+    color: white;
+    font-size: 22px;
+    
+}
+.aboutUsImgLeft {
+    position: absolute;
+    left: 20px;
+    width: 457px;
+    height: 457px;
+}
+.aboutUsImgRight {
+    position: absolute;
+    left: 963px;
+    width: 457px;
+    height: 457px;
+}
+/* ---- Medium ------------------------------------------------- */
+.AboutBannerMedium {
+color: #F4D58D;
+text-align: center;
+font-size: 42px;
+margin-top: 80px;
+margin-bottom: 80px;
+  
+}
+.riceBowlAboutMedium {
+    position: absolute;
+    height: 150px;
+    left: 575px;
+  
+    top: 165px;
+}
+.aboutUsImgLeftMedium {
+    position: relative;
+    left: 160px;
+    height: 450px;
+}
+.aboutUsTextMedium {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+/* ---- Small ------------------------------------------------- */
+
+    .aboutUsImgLeftSmall {
+        position: relative;
+        height: 340px;
+        left: 20px;
+        margin-bottom: 40px;
+    }
+    .aboutUsTextSmall {
+        text-align: start;
+        line-height: 22px;
+        margin-bottom: 40px;
+    }
+    .aboutUsbannerTextSmall {
+        color: #F4D58D;
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 60px;
+    }
