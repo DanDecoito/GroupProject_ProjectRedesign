@@ -89,3 +89,18 @@ redHText {
     width: 366px;
     
 }
+.headerTitleMark {
+    /* width: 776px; */
+
+    position: absolute;
+
+    left: 400px;
+    font-family: 'Alike';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 63px;
+
+
+    color: #F4D58D;
+}
