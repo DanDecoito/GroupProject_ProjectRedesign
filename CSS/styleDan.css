@@ -417,3 +417,113 @@
     margin-top: 40px;
     margin-bottom: 40px;
 }
+/*----------------------------------------------------------------
+------ Home Content End ------------------------------------------ 
+----------------------------------------------------------------*/
+
+
+
+
+
+/*----------------------------------------------------------------
+------ Contact Content Start ------------------------------------------ 
+----------------------------------------------------------------*/
+
+/* ---- LARGE ------------------------------------------------- */
+.riceBowlContact {
+    position: absolute;
+    left: 1060px;
+    margin-top: 30px;
+}
+.mapImage {
+    height: 650px;
+}
+.contactText {
+    color: white;
+    font-size: 22px;
+    margin-top: 160px;
+    margin-bottom: 165px;
+}
+.hoursTextContact {
+    line-height: 10px;
+}
+.contactHeader{
+    color: #F4D58D;
+}
+/* ---- Medium ------------------------------------------------- */
+.mapImageMedium {
+    height: 400px;
+}
+.riceBowlContactMedium {
+    position: absolute;
+    left: 560px;
+    height: 150px;
+    margin: 20px;
+}
+.contactBannerTextMedium {
+    font-size: 44px;
+    text-align: center;
+    color:#F4D58D;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+.ContactHeaderMedium {
+    color: #F4D58D;
+    font-size: 22px;
+}
+.right {
+    position: relative;
+    left: 55px;
+}
+.ContactHeaderMediumAdress {
+    color: #F4D58D;
+    text-align: center;
+    font-size: 22px;
+}
+.ContactMediumText {
+    color: white;
+    
+    line-height: 1px;
+}
+.hoursTextContactMedium {
+    color: white;
+    line-height: 3px;
+}
+.rightAdress {
+    position: relative;
+    left: 25px;
+}
+.contactMedium {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+/* ---- Small ------------------------------------------------- */
+.contactBannerTextSmall {
+    font-size: 38px;
+    text-align: center;
+    color:#F4D58D;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.mapImageSmall {
+    height: 300px;
+    padding: 20px;
+}
+.ContactHeaderSmall {
+    color: #F4D58D;
+    font-size: 16px;
+}
+.contactSmall {
+   position: relative;
+    margin-top: 20px;
+    margin-bottom: 40px;    
+}
+.smallSpace {
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+
+
+
+
