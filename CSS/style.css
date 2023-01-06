@@ -1,10 +1,6 @@
 .topHeader {
     background-color:#8D0801;
-    padding-top: 40px;
-
-  
-  
-    
+    padding-top: 40px; 
 }
 .bottomHeader {
     position: absolute;
@@ -14,7 +10,6 @@
     border: 2px;
     width: 100%;
 }
-
 
 .HeaderLinks {
     color: white;
