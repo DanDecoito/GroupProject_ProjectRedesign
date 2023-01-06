@@ -1,8 +1,6 @@
 .homeBody {
     background-color: #001427;
 }
-
-
 /*----------------------------------------------------------------
 ------ HEADER START ---------------------------------------------- 
 ----------------------------------------------------------------*/
@@ -10,28 +8,18 @@
     background-color: #8D0801;
     padding-top: 40px;
 }
-
 .bottomHeader {
-    /* position: absolute; */
-
     background-color: #8D0801;
     color: white;
-
     width: 100%;
-
-    ;
-
 }
-
 .HeaderLinks {
     color: white;
     font-size: 20px;
 }
-
 .headerMargins {
     margin-left: 630px;
 }
-
 .headerImage {
     box-sizing: border-box;
     z-index: 1;
@@ -41,23 +29,16 @@
     height: 400px;
     width: 400px;
 }
-
 .headerTitle {
-    /* width: 776px; */
-
     position: absolute;
-
     left: 400px;
     font-family: 'Alike';
     font-style: normal;
     font-weight: 400;
     font-size: 54px;
     line-height: 63px;
-
-
     color: #F4D58D;
 }
-
 .headerChineseText {
     position: absolute;
     left: 1190px;
@@ -67,55 +48,42 @@
     font-weight: 400;
     font-size: 58px;
     line-height: 70px;
-
-
     color: #F4D58D;
 }
-
 .spacer {
     margin-top: 50px;
 }
 
 /*------ MEDIUM --------------------------------------------------*/
-
 .headerImageMedium {
     z-index: 1;
     position: absolute;
     width: 272px;
     height: 272px;
 }
-
 .topHeaderMedium {
     background-color: #8D0801;
 }
-
 .headerTitleMedium {
-
     font-family: 'Alike';
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
-
     display: flex;
     justify-content: end;
     color: #F4D58D;
     margin-right: 20px;
 }
-
-
 .HeaderLinksMedium {
     color: white;
     font-size: 20px;
     margin: 7px;
-
 }
 
 /*------ SMALL --------------------------------------------------*/
 
 .topHeaderSmall {
     background-color: #8D0801;
-
-
 }
 
 .headerTitleSmall {
@@ -127,7 +95,6 @@
     color: #F4D58D;
     line-height: 0px;
     padding-top: 20px;
-
 }
 
 .headerChineseTextSmall {
@@ -140,7 +107,6 @@
     font-size: 48px;
     color: #F4D58D;
     line-height: 50px;
-
 }
 
 .yellow {
@@ -156,12 +122,6 @@
     height: 160px;
     width: 160px;
 }
-
-
-
-
-
-
 /*----------------------------------------------------------------
 ------ HEADER END ------------------------------------------------ 
 ----------------------------------------------------------------*/
@@ -176,20 +136,14 @@
 ----------------------------------------------------------------*/
 .danFooter {
     color: white;
-    /* position: relative; */
     width: 100%;
     height: 149px;
-
-
     background: #8D0801;
 }
-
 .coin {
-
     height: 100px;
     margin-top: 20px;
 }
-
 .footerContentText {
     font-family: sans-serif;
     font-weight: 400;
@@ -197,7 +151,6 @@
     line-height: 3px;
     margin-top: 30px;
 }
-
 .footerContentOtherText {
     margin-top: 30px;
     line-height: 3px;
@@ -205,7 +158,6 @@
     font-weight: 400;
     font-size: 16px;
 }
-
 .footerContentTextSmall {
     font-family: sans-serif;
     font-weight: 400;
@@ -213,7 +165,6 @@
     line-height: 3px;
     margin-top: 30px;
 }
-
 .footerContentOtherTextSmall {
     text-align: end;
     margin-top: 30px;
@@ -222,13 +173,10 @@
     font-weight: 400;
     font-size: 12px;
 }
-
 .coinSmall {
-
     height: 70px;
     margin-top: 10px;
 }
-
 /*----------------------------------------------------------------
 ------ FOOTER END ------------------------------------------------ 
 ----------------------------------------------------------------*/
@@ -243,54 +191,44 @@
     height: 1000px;
     padding-bottom: 1400px;
 }
-
 .homeHeroImage {
     position: relative;
     width: 100%;
     height: 500px;
 }
-
 .HomeMainImage {
     height: 700px;
 
 }
-
 .HomeContentText {
     color: white;
     width: 500px;
     font-size: 24px;
 }
-
 .hoursText {
     margin-top: 10px;
     line-height: 11px;
 }
-
 .noticeText {
     line-height: 24px;
     margin-top: 25px;
 }
-
 .location {
     line-height: 11px;
 }
-
 .paymentText {
     line-height: 11px;
 }
-
 .homeHeader {
     color: #F4D58D;
     margin-top: 30px;
 }
-
 .noticeHeader {
     color: #8D0801;
     font-weight: 800;
     font-size: 58px;
     line-height: 20px;
 }
-
 .welcomeText {
     color: white;
     text-align: center;
@@ -298,30 +236,24 @@
     margin-top: 80px;
     margin-bottom: 100px;
 }
-
 .riceBowlHome {
     position: absolute;
     left: 1125px;
 }
-
 .buddahImage {
     position: absolute;
     left: 830px;
     height: 400px;
 }
-
 /* ---- MEDIUM ------------------------------------------------- */
 .homeHeroImageMedium {
     position: relative;
     width: 100%;
     height: 350px;
 }
-
 .HomeMainImageMedium {
     height: 400px;
-
 }
-
 .welcomeTextMedium {
     color: white;
     text-align: center;
@@ -329,7 +261,6 @@
     margin-top: 40px;
     margin-bottom: 60px;
 }
-
 .HomeContentTextMedium {
     color: white;
     width: 250px;
@@ -386,7 +317,6 @@
 }
 /* ---- MEDIUM ------------------------------------------------- */
 .homeHeroImageSmall {
-    
     width: 100%;
     height: 220px;
 }
@@ -426,7 +356,7 @@
 
 
 /*----------------------------------------------------------------
------- Contact Content Start ------------------------------------------ 
+------ Contact Content Start ------------------------------------- 
 ----------------------------------------------------------------*/
 
 /* ---- LARGE ------------------------------------------------- */
@@ -523,7 +453,149 @@
     margin-bottom: 60px;
 }
 
+/*----------------------------------------------------------------
+------ Contact Content End --------------------------------------- 
+----------------------------------------------------------------*/
 
 
+/*----------------------------------------------------------------
+------ Menu Page Content Start ----------------------------------- 
+----------------------------------------------------------------*/
 
-
+/* ---- Large ------------------------------------------------- */
+.menuHero {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 100px;
+}
+.ordChkLst {
+    color: #F4D58D;
+    text-align: center;
+    font-size: 50px;
+    line-height: 40px; 
+}
+.riceBowlMenu {
+    position: absolute;
+    left: 1130px;
+    top: 655px;
+}
+.ChkLstContent {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.ChkLstTxt {
+    font-size: 28px;
+    width: 900px;
+}
+.menuImages {
+    margin-top: 100px;
+    height: 900px;
+    filter: brightness(.8);
+}
+.dsclmrText {
+    color: #F4D58D;
+    
+    font-size: 20px;
+    line-height: 20px;
+    width: 1250px;
+    text-align:center;
+}
+.dsclmrDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+/* ---- Medium ------------------------------------------------- */
+.menuHeroMedium {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 100px;
+}
+.riceBowlMenuMedium {
+    position: absolute;
+    left: 590px;
+    height: 150px;
+    top: 500px;
+}
+.ChkLstContentMedium {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.ChkLstTxtMedium {
+    font-size: 22px;
+    width: 700px;
+}
+.menuImagesMedium {
+    margin-top: 100px;
+    height: 470px;
+    filter: brightness(.8);
+}
+.ordChkLstMedium {
+    color: #F4D58D;
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px; 
+}
+.dsclmrTextMedium {
+    color: #F4D58D;
+    
+    font-size: 16px;
+    line-height: 20px;
+    width: 700px;
+    text-align:center;
+}
+.dsclmrDivMedium {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+/* ---- Small ------------------------------------------------- */
+.menuHeroSmall {
+    width: 100%;
+    height: 175px;
+    margin-bottom: 60px;
+}
+.ChkLstContentSmall {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.ChkLstTxtSmall {
+    font-size: 16px;
+    width: 300px;
+}
+.menuImagesSmall {
+    margin-top: 40px;
+    height: 420px;
+    filter: brightness(.8);
+}
+.ordChkLstSmall {
+    color: #F4D58D;
+    text-align: center;
+    font-size: 24px;
+    line-height: 15px; 
+}
+.dsclmrTextSmall {
+    color: #F4D58D;
+    
+    font-size: 10px;
+    line-height: 16px;
+    width: 320px;
+    text-align:center;
+}
+.dsclmrDivSmall {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+/*----------------------------------------------------------------
+------ Menu Page Content End ------------------------------------- 
+----------------------------------------------------------------*/
