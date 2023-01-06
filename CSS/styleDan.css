@@ -599,3 +599,53 @@
 /*----------------------------------------------------------------
 ------ Menu Page Content End ------------------------------------- 
 ----------------------------------------------------------------*/
+
+
+
+/*----------------------------------------------------------------
+------ About us Start -------------------------------------------- 
+----------------------------------------------------------------*/
+
+/* ---- Large ------------------------------------------------- */
+.riceBowlAbout {
+    position: absolute;
+    left: 1100px;
+  
+    top: 200px;
+}
+.contactText {
+   
+    color: #F4D58D;
+    text-align: center;
+    font-size: 50px;
+    line-height: 0px; 
+}
+.aboutUsContent {
+    margin-top: 220px;
+    height: 800px;
+}
+.aboutUsText {
+    color: white;
+    font-size: 22px;
+    
+}
+.aboutUsImgLeft {
+    position: absolute;
+    left: 20px;
+    width: 457px;
+    height: 457px;
+}
+.aboutUsImgRight {
+    position: absolute;
+    left: 963px;
+    width: 457px;
+    height: 457px;
+}
+/* ---- Large ------------------------------------------------- */
+.contactTextMedium {
+color: #F4D58D;
+text-align: center;
+font-size: 42px;
+margin-top: 80px;
+  
+}
