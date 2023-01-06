@@ -18,6 +18,7 @@ body {
 .HeaderLinks {
     color: white;
     font-size: 20px;
+    font-family: 'Inter', sans-serif;
 }
 
 .headerMargins {
@@ -89,6 +90,7 @@ body {
     color: white;
     font-size: 20px;
     margin: 7px;
+    font-family: 'Inter', sans-serif;;
 }
 
 /*------ SMALL --------------------------------------------------*/
@@ -148,12 +150,6 @@ body {
     max-width: 48rem;
 }
 
-.checkContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center
-}
-
 .footerContainer {
     max-width: 50rem;
 }
@@ -167,6 +163,8 @@ body {
 .checkList {
     color: #F4D58D;
     margin-top: 8rem;
+    font-family: 'Baskervville', serif;
+    font-style: italic;
 }
 
 .checkListInfo {
@@ -174,6 +172,7 @@ body {
     text-align: left;
     font-size: 1.5rem;
     padding-bottom: 2rem;
+    font-family: 'Inter', sans-serif;;
 }
 
 .logoImg {
@@ -194,9 +193,17 @@ body {
     display: none;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 769px) {
+    .menuImg {
+        width: 40rem;
+    }
+}
+
+@media only screen and (max-width: 426px) {
     .menuImgMobile {
         display: block;
+        width: 20rem;
+        padding-bottom: 1rem;
     }
 
     .menuImg {
@@ -208,9 +215,15 @@ body {
 
 .disclaimerText {
     color: white;
-    padding-top: 5rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
     text-align: left;
     font-size: 1rem;
+    font-family: 'Inter', sans-serif;;
+}
+
+.imgDiv {
+    justify-self: flex-end;
 }
 
 /* footer */
