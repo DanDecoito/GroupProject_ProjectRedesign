@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(0, 20, 39);
+}
+.p1 {
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 20.71px;
+}
+.p2 {
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 17.7px;
+}
+.gHText {
+    color: rgb(244, 213, 141);
+}
+darkHText {
+    color: rgb(0, 20, 39);
+}
+redHText {
+    color: rgb(191, 6, 3);
+}
+.pageName {
+    font-family: 'Baskervville';
+    font-style: italic;
+    font-size: 70px;
+    color: rgb(244, 213, 141);
+}
+.pageSubText {
+    font-size: 40px;
+}
+.titleText {
+    font-family: 'Alike', serif;
+    font-size: 50px;
+    color: rgb(244, 213, 141);
+}
+.pageTextAlign{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 80px;
+}
+.lineSpaceing {
+    line-height: 28.6px;
+}
+.pageNameMargin {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.imgSize {
+    width: 502px;
+    height: 487px;
+}
+.imgSize2 {
+    width: 240px;
+}
+.leftIMg {
+    position: absolute;
+    top: 520px;
+    left: 15px;
+}
+.rightIMg {
+    position: absolute;
+    top: 520px;
+    right: 15px;
+}
+.riceMed {
+    width: 130px;
+}
+.riceMedMarg {
+    margin-top: 55px;
+}
+.pageNameMed {
+    font-size: 40px;
+}
+.pageSubTextMed {
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 20px;
+}
+.imgMed {
+    width: 350px;
+}
+.imgSm {
+    width: 366px;
+    
+}

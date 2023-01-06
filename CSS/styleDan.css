@@ -29,6 +29,15 @@
     height: 400px;
     width: 400px;
 }
+.headerImageMark {
+    box-sizing: border-box;
+    z-index: 1;
+    position: absolute;
+    width: 306px;
+    height: 272px;
+    height: 400px;
+    width: 400px;
+}
 .headerTitle {
     position: absolute;
     left: 400px;
@@ -53,6 +62,7 @@
 .spacer {
     margin-top: 50px;
 }
+
 
 /*------ MEDIUM --------------------------------------------------*/
 .headerImageMedium {
@@ -166,6 +176,14 @@
     margin-top: 30px;
 }
 .footerContentOtherTextSmall {
+    text-align: end;
+    margin-top: 30px;
+    line-height: 3px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+.footerContentOtherTextSmallMark {
     text-align: end;
     margin-top: 30px;
     line-height: 3px;
