@@ -45,9 +45,9 @@ body {
 }
 
 .bottomHeader {
+    justify-content: center;
     position: absolute;
     top: 105px;
-    background-color: #8D0801;
     color: white;
     border: 2px;
     width: 100%;
@@ -55,12 +55,7 @@ body {
 
 /* check list */
 
-.check {
-    font-weight: bolder;
-}
-
 .checkList {
-    text-align: center;
     color: #F4D58D;
     margin-top: 8rem;
 }
@@ -68,13 +63,27 @@ body {
 .checkListInfo {
     color: white;
     text-align: left;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
 }
 
 .logoImg {
     max-width: 12rem;
     max-height: 12rem;
+    padding-top: 0.5rem;
 }
 
+.byoContainerTop {
+    --bs-gutter-x: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.byoContainerBottom {
+    display: flex;
+    justify-content: center;
+    max-width: 48rem;
+}
 
 /* menu */
 
@@ -83,10 +92,31 @@ body {
     max-height: 52rem;
     padding-top: 4rem;
 }
+ 
+.menuImgMobile {
+    display: none;
+}
+
+@media only screen and (max-width: 425px){
+    .menuImgMobile {
+        display: block;
+    }
+
+    .menuImg {
+        display: none;
+    }
+}
+
 
 /* disclaimer */
 
 .disclaimerText {
     color: white;
     padding-top: 5rem;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.footerContainer {
+    max-width: 50rem;
 }
